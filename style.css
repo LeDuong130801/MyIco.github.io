@@ -1,0 +1,11 @@
+.copy{
+    background-color: transparent;
+    float: right;
+    display:grid;
+    border: white solid 1px;
+    color: white;
+    border-radius: 3px;
+}
+.box-content{
+    height: 40px;
+}

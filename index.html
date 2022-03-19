@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="vi">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Lê Hoàng Dương</title>
+</head>
+
+<body>
+    <div class="container-fluid" style="font-family: Arial, Helvetica, sans-serif;">
+        <div class="row">
+            <div class="col-md-4" style="background-color:darkblue; color:white">
+                <br>
+                <div class="img text-center">
+                    <img style="border-radius: 80px;" src="avatar.jpg" alt="" width="160px">
+                </div>
+                <br>
+                <h3>Contact</h3>
+                <div>
+                    <nav class="box-content"  id="Phone-number"><i class="fas fa-phone me-2"></i>0347513801
+                        <button class="btn copy" onclick="copyphone()" data-bs-toggle="tooltip" data-bs-placement="top"
+                            title="Copy phone number to clipboard"><i class="far fa-copy"></i></button>
+                    </nav>
+                    <nav class="box-content" id="Address"><i class="fas fa-home me-2"></i>Xóm Bến, Nguyễn Trãi, Thường Tín, Hà Nội
+                        <button class="btn copy" onclick="gomapaddress()" data-bs-toggle="tooltip" data-bs-placement="top"
+                            title="Find location with Google map"><i class="fas fa-search-location"></i></button>
+                    </nav>
+                    <nav class="box-content"  id="Email"><i class="fas fa-envelope me-2"></i>leduong.w01@gmail.com
+                        <button class="btn copy" onclick="copyemail()" data-bs-toggle="tooltip" data-bs-placement="top"
+                            title="Copy email to clipboard"><i class="far fa-copy"></i></button>
+                    </nav>
+                    <nav class="box-content"  id="facebook"><i class="fab fa-facebook me-2"></i>Dương Lê
+                        <button class="btn copy" onclick="gofacebook()" data-bs-toggle="tooltip" data-bs-placement="top"
+                            title="Go to facebook"><i class="fas fa-arrow-right"></i></button>
+                    </nav>
+                    <i class=""></i>
+                </div>
+                <hr>
+                <h3>Language</h3>
+                <div>
+                    <nav>Tiếng Việt - High level</nav>
+                    <nav>English - Basic</nav>
+                </div>
+                <hr>
+                <h3>Programming language</h3>
+                <div>
+                    <nav>C++</nav>
+                    <nav>Java</nav>
+                    <nav>C#</nav>
+                    <nav>HTML/css</nav>
+                    <nav>Javascript</nav>
+                </div>
+            </div>
+            <div class="col-md">
+                <br>
+                <div class="container">
+                    <div class="row" style="height: 160px;">
+                        <div>
+                            <h2>Lê Hoàng Dương</h2>
+                            <br>
+                            <p>Cuộc sống chưa bao giờ là ổn :(</p>
+                        </div>
+                    </div>
+                    <br>
+                    <h3 style="color:orange">Contact</h3>
+                    <div class="infomation">
+                        <div class="row">
+                            <nav class="left col-5">
+                                <p>Ngày sinh</p>
+                                <p>Quốc tịch</p>
+                                <p>Nơi ở</p>
+                                <p>Tình trạng hôn nhân</p>
+                            </nav>
+                            <nav class="right col-7">
+                                <p>: 13/08/2001</p>
+                                <p>: Việt Nam</p>
+                                <p>: Việt Nam</p>
+                                <p>: Ế</p>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="objective">
+                        <h3 style="color:orange">Objective</h3>
+                        <div class="text">
+                            <p>Người con của Đảng</p>
+                        </div>
+                    </div>
+                    <div class="exp">
+                        <h3 style="color:orange"> Work Experience</h3>
+                        <div class="text">
+                            <li>Biết sử dụng internet, tra Google</li>
+                            <li>Lập trình winform căn bản</li>
+                            <li>Thiết kế front-end cho web bằng PHP, HTML, Css</li>
+                            <li>Lập trình back-end đơn giản</li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        function copyphone() {
+            navigator.clipboard.writeText("0347513801");
+        }
+        function gomapaddress() {
+            window.open("https://goo.gl/maps/mpZf9SRAn6WJSwRU7");
+        }
+        function copyemail() {
+            navigator.clipboard.writeText("leduong.w01@gmail.com");
+        }
+        function gofacebook(){
+            window.open("https://www.facebook.com/profile.php?id=100010140545213")
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
